@@ -4,7 +4,7 @@
 - [プライバシーポリシー (Privacy Policy)](PRIVACY_POLICY.md)
 - [お問い合わせフォーム (Contact Form)](https://forms.gle/9JBtwtiTLq4ZQTs59)
 
-> [!NOTE]
+> [!NOTE]<br>
 > お問い合わせへのご回答は、通常2～3営業日以内にメールにてご連絡いたします。<br>
 > Responses to inquiries are typically sent via email within 2–3 business days.<br>
 > <br>
