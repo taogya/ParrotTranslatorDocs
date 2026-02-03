@@ -5,12 +5,12 @@
 - [返金ポリシー (Refund Policy)](#返金ポリシー--refund-policy)
 - [お問い合わせフォーム (Contact Form)](https://forms.gle/9JBtwtiTLq4ZQTs59)
 
-> [!NOTE]<br>
-> お問い合わせへのご回答は、通常2～3営業日以内にメールにてご連絡いたします。<br>
-> Responses to inquiries are typically sent via email within 2–3 business days.<br>
-> <br>
-> 万が一ご返信がない場合は、お手数ですが再度お問い合わせくださいますようお願い申し上げます。<br>
-> If you do not receive a reply, please kindly contact us again.<br>
+**📝 注意 / Note:**
+
+お問い合わせへのご回答は、通常2～3営業日以内にメールにてご連絡いたします。<br>
+Responses to inquiries are typically sent via email within 2–3 business days.<br>
+万が一ご返信がない場合は、お手数ですが再度お問い合わせくださいますようお願い申し上げます。<br>
+If you do not receive a reply, please kindly contact us again.<br>
 
 ---
 
@@ -29,6 +29,7 @@ Refunds for in-app purchases are processed according to Apple's refund policy. W
 4. 返金理由を選択して送信<br>
    Choose a refund reason and submit<br>
 
-> [!IMPORTANT]<br>
-> 返金の承認はAppleによって判断されます。開発者は返金処理に直接関与できません。<br>
-> Refund approval is determined by Apple. The developer cannot directly intervene in the refund process.
+**⚠️ 重要 / Important:**
+
+返金の承認はAppleによって判断されます。開発者は返金処理に直接関与できません。<br>
+Refund approval is determined by Apple. The developer cannot directly intervene in the refund process.
