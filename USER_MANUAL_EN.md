@@ -22,18 +22,42 @@ A language learning app using voice. Translate what you say in your native langu
 
 ### Learning Flow
 
-```mermaid
-graph LR
-    A[①Speak] --> B[②Translate]
-    B --> C[③Listen]
-    C --> D[④Pronounce]
-    D --> E[⑤Judge]
-    E -->|Again| C
-    E -->|Next| A
+```
+     ┌─────────────────┐
+     │   1 Speak       ├──┐
+     │  (Native lang)  │  │
+     └────────┬────────┘  │
+              │           │
+              ↓           │
+     ┌────────┴────────┐  │
+     │  2 Translate    │  │
+     │   (Auto)        │  │
+     └────────┬────────┘  │
+              │           │
+              ↓           │
+     ┌────────┴────────┐  │
+  ┌──┤  3 Listen       │  │
+  │  │ (Target lang)   │  │
+  │  └────────┬────────┘  │
+  │           │           │
+  │           ↓           │
+  │  ┌────────┴────────┐  │
+  │  │ 4 Pronounce     │  │
+  │  │ (Repeat)        │  │
+  │  └────────┬────────┘  │
+  │           │           │
+  │           ↓           │
+  │  ┌────────┴────────┐  │
+  │  │   5 Judge       │  │
+  │  │ (OK/Try again)  │  │
+  │  └────────┬────────┘  │
+  │           │           │
+  │  [Again]  │  [Next]   │
+  └───────────┤           │
+              └───────────┘
 ```
 
-> [!NOTE]
-> **Native and target language selection** is done on the screen displayed when starting a learning session.
+**📝 Note:** Native and target language selection is done on the screen displayed when starting a learning session.
 
 1. **Speak**: Tap the mic and speak in your native language
 2. **Translate**: Automatically translated to learning language
@@ -61,8 +85,7 @@ Simply speak naturally on the result screen:
 | ---------------- | --------------------- |
 | **Color Scheme** | System / Light / Dark |
 
-> [!NOTE]
-> App display language follows iOS "Preferred Languages" setting.
+**📝 Note:** App display language follows iOS "Preferred Languages" setting.
 
 ### Language Settings
 
